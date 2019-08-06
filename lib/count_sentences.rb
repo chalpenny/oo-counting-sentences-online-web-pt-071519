@@ -20,8 +20,8 @@ class String
 
   def count_sentences
     new_array = []
-    new_array << self.strip.split(".").delete(" ")
-    new_array.count
-   binding.pry
+    new_array << self.strip.split(".")
+    new_array.delete(" ").count
+  # binding.pry
   end
 end
