@@ -19,7 +19,9 @@ class String
   end
 
   def count_sentences
-    self.strip.split(".").delete(" ").count
+    new_array = []
+    new_array << self.strip.split(".").delete(" ")
+    new_array.count
   #  binding.pry
   end
 end
