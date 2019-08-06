@@ -22,6 +22,6 @@ class String
     new_array = []
     new_array << self.strip.split(".").delete(" ")
     new_array.count
-  #  binding.pry
+   binding.pry
   end
 end
