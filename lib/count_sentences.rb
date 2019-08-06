@@ -19,7 +19,7 @@ class String
   end
 
   def count_sentences
-    self.strip.tr(".?!", ".")split(".").count
+    self.strip.tr(".?!", ".").split(".").count
   # binding.pry
   end
 end
